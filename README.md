@@ -27,7 +27,7 @@ No external dependencies are required. Just clone the repository or download the
 
 ### **Step 1: Create the Input File**
 
-Create a file named `input.json` in the same directory as the script (`solveFromFile.js`).
+Create a file named `input.json` in the same directory as the script (`polynomialsolver.js`).
 
 ### **Step 2: Populate the Input File**
 
@@ -38,7 +38,7 @@ Add the polynomial data to `input.json` according to the format described below.
 Execute the script from your terminal. The output will be printed directly to the console.
 
 ```bash
-node solveFromFile.js
+node polynomialsolver.js
 ```
 
 -----
@@ -90,18 +90,11 @@ Here is an example of a valid `input.json` file and its corresponding output.
 ### **Running the Command**
 
 ```bash
-node solveFromFile.js
+node polynomialsolver.js
 ```
 
 ### **Expected Output**
 
 The script will find the coefficients for the polynomial $P(x) = 1x^2 + 0x + 3$.
 
-```
-Using the first k=3 points to solve...
 
---- Found Polynomial Coefficients ---
-c0: 3
-c1: 0
-c2: 1
-```
